@@ -10,6 +10,7 @@
     "seed"
   ],
   "scripts": {
+    "start": "python -m python_seed",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
