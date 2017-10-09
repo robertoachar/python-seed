@@ -1,32 +1,36 @@
 # Python Seed
-A python seed project.
 
-## Dependencies
+[![License][license-badge]][license-url]
+
+> A python seed project.
+
+# Dependencies
 
 Install Python 3.5.x (x64)  
 [https://www.python.org/downloads/release/python-353/](https://www.python.org/downloads/release/python-353/)
 
-## Quick Start
+# Development
 
 ```bash
-# Clone the repository
+# clone the repository
 $ git clone https://github.com/robertoachar/python-seed.git
 
-# Change the directory
+# change the directory
 $ cd python-seed
 
-# Run
-$ python -m python_seed
+# run
+$ python3 -m python_seed
 ```
 
-## VSCode
+# VSCode
 
-#### Install extension Python 0.6.0 from Don Jayamanne
+## Install extension Python 0.7.0 from Don Jayamanne
+
 ```
 ext install python
 ```
 
-#### Install extension dependencies
+## Install extension dependencies
 
 ```bash
 # Install autopep8
@@ -36,15 +40,23 @@ $ pip install autopep8
 $ pip install pylint
 ```
 
-#### Set python path
+## Set python path
 
 File > Preferences > Settings > User Settings
+
 ```json
 {
   "python.pythonPath": "C:\\Python35"
 }
 ```
 
-## Author
+# Author
 
-Roberto Achar
+[Roberto Achar](https://twitter.com/robertoachar)
+
+# License
+
+[MIT](https://github.com/robertoachar/smtc-node-now/blob/master/LICENSE)
+
+[license-badge]: https://img.shields.io/github/license/robertoachar/smtc-node-now.svg
+[license-url]: https://opensource.org/licenses/MIT
